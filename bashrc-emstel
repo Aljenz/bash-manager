@@ -1,0 +1,10 @@
+
+# prompt
+PS1='\[\033[38;5;214m\]\u\[$(tput sgr0)\]\[\033[38;5;160m\]@\[$(tput sgr0)\]\[\033[38;5;214m\]\h\[$(tput sgr0)\] \[\033[38;5;75m\]\w\[$(tput sgr0)\]\[\033[38;5;161m\]$(__git_ps1 " (%s)")\[$(tput sgr0)\]\$ '
+
+# git prompt
+source ~/.git-prompt
+
+# script folder
+export PATH=$PATH":$HOME/.emstel-scripts/scripts"
+
