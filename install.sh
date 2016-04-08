@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # git promt
-# curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > ~/.git-prompt
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > ~/.git-prompt
 
 \cp bashrc-emstel ~/.bashrc-emstel
 
