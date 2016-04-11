@@ -1,8 +1,4 @@
 #!/bin/bash
-
-# git promt
-curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > ~/.git-prompt
-
 \cp bashrc-emstel ~/.bashrc-emstel
 
 if [ -a ~/.bashrc ]
@@ -12,11 +8,12 @@ else
   echo "ERROR: No .bashrc found!"
 fi
 
-mkdir -p ~/.emstel-scripts
-mkdir -p ~/.emstel-scripts/scripts
-mkdir -p ~/.emstel-scripts/packages
+mkdir -p ~/.bash-manager
+mkdir -p ~/.bash-manager/scripts
+mkdir -p ~/.bash-manager/packages
+mkdir -p ~/.bash-manager/bash-manager
 
-cp scripts/eyo ~/.emstel-scripts/scripts/
-chmod 755 ~/.emstel-scripts/scripts/eyo
+cp scripts/eyo ~/.bash-manager/scripts/
+chmod 755 ~/.bash-manager/scripts/eyo
 
 
