@@ -1,5 +1,4 @@
 #!/bin/bash
-SCRIPT_FOLDER=~/.emstel-scripts/packages
 BASEDIR=$(dirname $0)
 
 case "$1" in
@@ -7,7 +6,7 @@ case "$1" in
       case "$2" in
       vim-config)
         cd $BASH_MANAGER_PATH/packages
-        git clone https://github.com/mtzd/vim-config.git
+        git clone https://github.com/mtzd/vim-config
         chmod 755 $BASH_MANGER_PATH/packages/vim-config/install.sh
         cd $BASH_MANGER_PATH/vim-config/
         sh install.sh
