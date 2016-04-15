@@ -3,4 +3,5 @@
 bash-manager
 
 ## scripts
-bash-manager (bash-manager install vim-config)
+vim-config (bash-manager install vim-config)
+extract (bash-manager install extract)
