@@ -13,7 +13,7 @@ mkdir -p ~/.bash-manager/scripts
 mkdir -p ~/.bash-manager/packages
 mkdir -p ~/.bash-manager/bash-manager
 
-cp scripts/eyo ~/.bash-manager/scripts/
-chmod 755 ~/.bash-manager/scripts/eyo
+cp scripts/bash-manager ~/.bash-manager/scripts/
+chmod 755 ~/.bash-manager/scripts/bash-manager 
 
 

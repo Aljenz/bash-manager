@@ -1,6 +1,6 @@
 # bash-config
 
-bash prompt with git.
+bash-manager
 
 ## scripts
-eyo (eyo install vim-config)
+bash-manager (bash-manager install vim-config)
