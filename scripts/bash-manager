@@ -12,6 +12,11 @@ case "$1" in
         sh install.sh
         exit 0
         ;;
+      extract)
+        cp scripts/extract ~/.bash-manager/scripts/
+        chmod 755 ~/.bash-manager/scripts/extract
+        exit 0
+        ;;
       *)
         echo "Available packages:\n vim-config"
         exit 1
